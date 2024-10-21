@@ -6071,12 +6071,12 @@ nav[data-target=toc] .nav-link.active.current:is(.dark *) {
 
 .text-accent {
   --tw-text-opacity: 1;
-  color: rgb(254 114 36/var(--tw-text-opacity))
+  color: #FF2424
 }
 
 .text-accent-400 {
   --tw-text-opacity: 1;
-  color: rgb(255 136 56/var(--tw-text-opacity))
+  color: #FF2424;
 }
 
 .text-accent-50 {
@@ -6292,7 +6292,7 @@ nav[data-target=toc] .nav-link.active.current:is(.dark *) {
 
 .text-orange-400 {
   --tw-text-opacity: 1;
-  color: rgb(255 136 56/var(--tw-text-opacity))
+  color: #FF2424;
 }
 
 .text-positive-600 {

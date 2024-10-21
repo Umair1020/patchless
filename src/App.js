@@ -8,6 +8,8 @@ import Contact from "./Contact";
 import Gallery from "./Gallery";
 import Service from "./components/Service";
 import NotFound from "./components/NotFound";
+import Blog from "./Blog";
+import Prising from "./Prising";
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/service" element={<Service />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/prising" element={<Prising />} />
         <Route path="*" element={<NotFound />} /> {/* Wildcard route for 404 */}
       </Routes>
     </>

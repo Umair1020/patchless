@@ -15,7 +15,7 @@ const Footer = () => {
                         Custom patches at incredibly low prices!
                     </p>
 
-                    <a href="//cdn-cgi/l/email-protection#86f5e7eae3f5c6f6e7f2e5eee3f5b2eae3f5f5a8e5e9eb"
+                    <a href="#"
                         class="flex items-center py-2" onclick="window.fathom.trackEvent('Email Link')">
                         <svg class="mr-2 size-5 text-dark" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"
                             fill="currentColor" aria-hidden="true" data-slot="icon">
@@ -32,7 +32,7 @@ const Footer = () => {
                         </span>
                     </a>
 
-                    <a href="/tel:+1-866-847-2824" onclick="window.fathom.trackEvent('Telephone Link')"
+                    <a href="#" 
                         class="flex items-center py-2">
                         <svg class="mr-2 size-5 text-dark" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"
                             fill="currentColor" aria-hidden="true" data-slot="icon">
@@ -69,19 +69,7 @@ const Footer = () => {
                         class="mb-3 flex text-sm font-medium text-dark transition hover:text-dark md:mb-2">
                         Gallery
                     </a>
-                    <a href="/option" title="Explore Your Options for Personalized Patches"
-                        class="mb-3 flex text-sm font-medium text-dark transition hover:text-dark md:mb-2">
-                        Options
-                    </a>
-                    <a href="/quote" title="Start Your Custom Patch Journey with Us"
-                        class="mb-3 flex text-sm font-medium text-dark transition hover:text-dark md:mb-2">
-                        Free Quote
-                    </a>
-                    <a href="/how-to-iron-on-patches"
-                        title="A Step-By-Step Guide on How to Apply Iron On Patches to any garment"
-                        class="mb-3 flex text-pretty text-sm font-medium text-dark transition hover:text-dark md:mb-2">
-                        How To Iron On A Patch
-                    </a>
+                    
                 </nav>
                 <nav class="col-span-1 md:col-span-1 lg:col-span-2" aria-label="About">
                     <p class="mb-3 text-xs font-semibold uppercase tracking-wider text-dark">About</p>
@@ -89,10 +77,7 @@ const Footer = () => {
                         class="mb-3 flex text-sm font-medium text-dark transition hover:text-dark md:mb-2">
                         About Us
                     </a>
-                    <a href="https://feedback" title="Read What Others Say About Our Custom Patches"
-                        class="mb-3 flex text-sm font-medium text-dark transition hover:text-dark md:mb-2">
-                        Feedback
-                    </a>
+                   
                     <a href="/contact" title="Get in Touch for Your Custom Patch Needs"
                         class="mb-3 flex text-sm font-medium text-dark transition hover:text-dark md:mb-2">
                         Contact Us
@@ -104,35 +89,24 @@ const Footer = () => {
                         class="mb-3 flex text-sm font-medium text-dark transition hover:text-dark md:mb-2">
                         FAQs
                     </a>
-                    <a href="/designing-custom-patches"
-                        title="Designing Your Patch: A Guide to Creating Your Perfect Custom Patch"
-                        class="mb-3 flex text-sm font-medium text-dark transition hover:text-dark md:mb-2">
-                        Designing
-                    </a>
+                   
                     <a href="/pricing" title="Pricing Information: Understanding the Cost of Custom Patches"
                         class="mb-3 flex text-sm font-medium text-dark transition hover:text-dark md:mb-2">
                         Pricing
                     </a>
-                    <a href="/payment-form" title="Easy Online Payment: Securely Pay for Your Custom Patches Online"
-                        class="mb-3 flex text-sm font-medium text-dark transition hover:text-dark md:mb-2">
-                        Pay Online
-                    </a>
-                    <a href="/sitemap" title="Navigate our site"
-                        class="mb-3 flex text-sm font-medium text-dark transition hover:text-dark md:mb-2">
-                        Sitemap
-                    </a>
+                    
                 </nav>
                 <div class="col-span-3">
                     <ul class="social-links list-none flex gap-4">
                         <li>
-                            <a href="https://www.facebook.com" title="Visit us on Facebook"
+                            <a href="https://www.facebook.com/share/zvFoS5M7AKo4gLud/" title="Visit us on Facebook"
                                 class="flex size-8 rounded p-1 text-primary-50 transition focus-hover:bg-accent/10 focus-hover:text-accent">
                                 <img src='/facebook.svg' />
                                 <span class="sr-only">Facebook</span>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com" title="Visit us on Instagram"
+                            <a href="https://www.instagram.com/usdigitize.official/profilecard/?igsh=czh3M3l4dHlvb3Ry" title="Visit us on Instagram"
                                 class="flex size-8 rounded p-1 text-primary-50 transition focus-hover:bg-accent/10 focus-hover:text-accent">
                               <img src='/insta.svg' />
                                 <span class="sr-only">Instagram</span>

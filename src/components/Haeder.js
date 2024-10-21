@@ -41,7 +41,7 @@ const Haeder = () => {
                 </div>
             </nav>
             <nav aria-label="top navigation" className="flex items-center gap-8 font-heading">
-                <a href="//cdn-cgi/l/email-protection#3b485a575e487b4b5a4f58535e480f575e484815585456" onClick="window.fathom.trackEvent('Email Link')" title="Email us at sales@patches4less.com" className="flex items-center gap-4 whitespace-nowrap">
+                <a href="" title="Email us at .com" className="flex items-center gap-4 whitespace-nowrap">
                     <svg className="size-6 text-primary text-white lg:opacity-50" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                     </svg>
@@ -51,7 +51,7 @@ const Haeder = () => {
 
                     </span>
                 </a>
-                <a href="/tel:+1-516-927-7625" title="Call Us at 1 516-927-7625" onClick="window.fathom.trackEvent('Telephone Link')" className="flex items-center gap-4 whitespace-nowrap">
+                <a href="#" title="Call Us at 1 516-927-7625"  className="flex items-center gap-4 whitespace-nowrap">
                     <svg className="size-6  text-white md:opacity-50" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
                     </svg>
@@ -128,7 +128,7 @@ const Haeder = () => {
                                     </li>
                                     <li className="nav-item">
                                         <Link
-                                            to="/pricing"
+                                            to="/prising"
                                             className="nav-link text-light"
                                             activeStyle={{ color: "#FF2424" }} // Active tab color
                                         >
